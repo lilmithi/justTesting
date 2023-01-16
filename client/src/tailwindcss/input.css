@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+.list-item {
+  @apply p-4 flex items-center justify-center md:justify-start md:pl-8 w-full gap-4 rounded-md hover:bg-[#1d1d1d] mb-2 cursor-pointer transition delay-75;
+}
+
+.top-card {
+  @apply lg:w-64 md:w-52 w-3/4 h-48 border border-gray-500 rounded bg-[#474747] flex flex-col justify-between p-4 text-lg font-bold hover:scale-[1.03] transition duration-[3s] ease-in-out cursor-default;
+}
+.navbar-svg {
+  @apply w-6 h-6 hidden md:inline-block;
+}
+.main {
+  @apply text-white md:ml-64 p-2 min-h-screen bg-[#202020];
+}
+.navbar {
+  @apply text-white md:w-64 md:h-screen md:fixed top-0 left-0 overflow-y-auto bg-[#202020];
+}
+.profile-slug {
+  @apply text-xs gap-4 md:flex px-2 items-center py-4 flex-wrap hidden;
+}
+
+.admin-submit-btn {
+  background: rgb(188, 104, 240);
+  background: -moz-linear-gradient(76deg, #c587ec 46%, rgb(236, 136, 194) 96%);
+  background: -webkit-linear-gradient(
+    76deg,
+    rgb(170, 97, 216) 46%,
+    rgba(250, 88, 182, 1) 96%
+  );
+  background: linear-gradient(
+    76deg,
+    rgb(172, 56, 245) 46%,
+    rgba(250, 88, 182, 1) 96%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7a0bc0",endColorstr="#fa58b6",GradientType=1);
+}
+
+
+
